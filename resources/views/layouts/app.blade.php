@@ -17,7 +17,7 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased" id="app">
         <x-banner />
 
         <div class="min-h-screen bg-gray-100">
@@ -41,5 +41,11 @@
         @stack('modals')
 
         @livewireScripts
+        <!-- Scripts para FullCalendar.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core/main.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid/main.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core/main.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid/main.min.css" rel="stylesheet" />
+
     </body>
 </html>
