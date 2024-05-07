@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-
+{{-- dfcsfs --}}
     <!-- Sección de Ingresos -->
     <div class="bg-white shadow-md rounded-md p-6">
         <h2 class="text-xl font-semibold text-gray-900 mb-4">Ingresos</h2>
